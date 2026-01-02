@@ -1,4 +1,7 @@
 <script lang="ts">
+
+  const imagem = "/imagens/igara.jpeg";
+
   // puzzle inicial com imagens da pasta static/images
   let arr: string[][] = [
     ["/images/11.png", "/images/22.png", "/images/33.png"],
@@ -73,6 +76,7 @@
   }
 </script>
 
+<img src={imagem} alt="igara">
 <style>
   * {
     padding: 0;

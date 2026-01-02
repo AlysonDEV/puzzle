@@ -1,11 +1,10 @@
 <script lang="ts">
-    
-    let tituloDoJogo : string = "Quebra cabeça"
+  let tituloDoJogo = "Igarabits";
 </script>
 
-
 <div class="menu-container">
-    <h1>{tituloDoJogo}</h1>
-    <a class="menu" href="/jogar">Jogar</a>
-    <a class="menu" href="/sobre">Sobre</a>
+  <h1 class="title">{tituloDoJogo}</h1> 
+  
+  <a class="menu" href="/jogar">Jogar</a>
+  <a class="menu" href="/sobre">Sobre</a>
 </div>
